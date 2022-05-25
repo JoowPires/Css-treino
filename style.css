@@ -4,6 +4,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.container-central {
+  width: 65%;
+}
+
 .flexbox {
   display: flex;
   flex-direction: column;

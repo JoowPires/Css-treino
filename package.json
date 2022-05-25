@@ -3,6 +3,8 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "live-server": "^1.2.2",
+    "local-web-server": "^5.2.0",
     "prettier": "2.6.2"
   }
 }
