@@ -4,6 +4,13 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .flex{
     display: flex;
     align-items: center;
@@ -12,13 +19,14 @@
 }
 .navbar {
     height: 110px;
+    width: 100%;
     background-color: #122a57;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-ul {
+.ul {
     padding-right: 200px;
     list-style: none;
     display: flex;  
@@ -26,7 +34,7 @@ ul {
     align-items: center;  
 }
 
-ul li a {
+.ul li a {
     list-style: none;
     text-decoration: none;
     color: #fff;
@@ -37,7 +45,7 @@ ul li a {
     font-weight: bold;
     border-radius: 40px;
 }
-ul li a:hover {
+.ul li a:hover {
     background-color: #fff;
     color: #122a57;
 }
@@ -45,7 +53,7 @@ ul li a:hover {
 .seg-div{
     display: flex;
     align-items: center;
-    justify-content: space-around;    
+    justify-content: space-between;;    
     padding-top: 30px 80px;
 }
 
@@ -75,12 +83,13 @@ ul li a:hover {
 .div3{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 30px 80px;
 }
 
 .background{
     background-color: #122a57;
+    width: 100%;
 }
 
 .service{
@@ -134,4 +143,72 @@ ul li a:hover {
 .padding{
    padding-top: 30px;
    padding-left: 35px;
+}
+
+.border{
+    border: 5px solid #122a57;
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 50px;
+    padding: 20px 0px;
+}
+
+.div4{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 50px
+}
+
+.collumul{
+    font-size: 15px;
+    font-weight: bold;
+    color: #122a57;
+    justify-content: center;
+    align-items: center;
+    list-style: square;
+    padding: 40px;
+}
+
+.collumul li {
+    padding: 2px;
+}
+
+.rodape{
+    height: 75px;
+    width: 100%;
+    background-color: #122a57;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.jow{
+    color: #fff;
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+.saibamaisborder{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 30px;
+    border-radius: 30px;
+    background-color: #122a57;
+}
+
+#linha-horizontal {
+    width: 150px;
+    border: 2px solid #122a57;
 }
