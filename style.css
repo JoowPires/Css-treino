@@ -4,15 +4,72 @@
   font-family: "Open Sans", sans-serif;
 }
 
-.container-central {
-  width: 65%;
+header {
+  height: 155px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #122a57;
 }
 
-.flexbox {
+nav {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  color: #fff;
+  font-size: 36px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 0 20px 0 20px;
+  color: #fff;
+}
+
+.container-central {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.hero {
+  background-color: green;
+  width: 65%;
+  display: flex;
+}
+
+.hero-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text h1 {
+  font-size: 64px;
+}
+
+.hero-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 100%;
 }
 
 .flex {
@@ -20,14 +77,6 @@
   align-items: center;
   padding-left: 100px;
   color: #fff;
-}
-.navbar {
-  height: 110px;
-  width: 100%;
-  background-color: #122a57;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .ul {
@@ -74,13 +123,11 @@
 }
 
 .saibamais {
-  list-style: none;
-  text-decoration: none;
-  color: #fff;
-  margin-left: 50px;
-  padding: 5px 30px;
-  border-radius: 30px;
   background-color: #122a57;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 40px 10px 40px;
+  border-radius: 18px;
 }
 
 .div3 {
